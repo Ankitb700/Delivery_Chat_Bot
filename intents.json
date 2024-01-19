@@ -1,0 +1,157 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea",
+        "We have games for PC"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "tracking",
+      "patterns": [
+        "Can I track my order?",
+        "Where is my delivery?",
+        "Track my package"
+      ],
+      "responses": [
+        "Yes, you can track your order. Visit our website and enter your order number for real-time tracking.",
+        "Sure, to track your order, go to the 'Track Order' section on our app and enter your order details."
+      ]
+    },
+    {
+      "tag": "customization",
+      "patterns": [
+        "Can I customize my order?",
+        "Are there customization options?",
+        "Modify my order"
+      ],
+      "responses": [
+        "Certainly! You can customize your order during the checkout process. Add special instructions or preferences.",
+        "Yes, feel free to customize your order. Specify any preferences or modifications in the order notes."
+      ]
+    },
+    {
+      "tag": "promotions",
+      "patterns": [
+        "Are there any promotions?",
+        "Do you have discounts?",
+        "Tell me about current offers"
+      ],
+      "responses": [
+        "Yes, we have ongoing promotions. Check our 'Promotions' page on the app for the latest discounts and offers.",
+        "Explore our 'Special Offers' section to find exciting promotions and discounts on selected items."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "What is the status of my order?",
+        "Check my order status",
+        "Has my order shipped?"
+      ],
+      "responses": [
+        "To check your order status, log in to your account and go to the 'Order History' section.",
+        "You can track your order status by entering your order number on our website under 'Order Status'."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "Can you recommend something?",
+        "What's popular?",
+        "Any recommendations?"
+      ],
+      "responses": [
+        "Certainly! Our most popular items are the special blend coffee and exotic tea. Give them a try!",
+        "For a delightful experience, try our recommended combo of coffee and tea. It's a customer favorite."
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "I have an issue",
+        "Need help",
+        "Contact customer support"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please contact our customer support team at support@example.com for assistance.",
+        "If you have any issues, reach out to our dedicated customer support team via email at support@example.com."
+      ]
+    }
+  ]
+}
